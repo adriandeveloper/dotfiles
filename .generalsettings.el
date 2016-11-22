@@ -45,6 +45,8 @@
                        (if (frame-parameter nil 'fullscreen) nil 'fullboth)))
 ;; change font style to italic when comments are toggled
 (set-face-italic 'font-lock-comment-face t)
+;; visual like word wrap
+(global-visual-line-mode t)
 
 
 ;;>>>>>>>>>>><<<<<<<<<<<<<;;
