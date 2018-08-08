@@ -24,6 +24,7 @@ set textwidth=120
 set inccommand=nosplit " don't split when subsituting
 set backspace=indent,eol,start " make backspace behave in a sane manner
 autocmd BufLeave,FocusLost * silent! wall " safe file on focus loss
+" set showtabline=0	"hide tabline
 
 " no swap or backup files
 " ************************************************
@@ -93,6 +94,7 @@ set mat=2 		" how many tenths of a second to blink
 set termguicolors
 set background=dark
 colo onedark
+let base16colorspace=256  " Access colors present in 256 colorspace
 
 " tab control
 " ************************************************

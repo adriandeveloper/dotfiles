@@ -22,6 +22,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'itchyny/lightline.vim'                " lighter statusbar
 Plug 'sickill/vim-pasta'
 Plug 'nicknisi/vim-base16-lightline'
+Plug 'chriskempson/base16-vim'              " color scheme close to Xcode Spacegray
 Plug 'joshdick/onedark.vim'
 Plug 'scrooloose/nerdtree'					" file system explorer
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -29,6 +30,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'				" add filetype gliph icons
 Plug 'jlanzarotta/bufexplorer'              " switch between buffers
 Plug 'vimlab/split-term.vim'                " neovim terminal utilities
+Plug 'webdevel/tabulous'                    " cleaner tabline
 
 " editor - editing coding focused
 " ************************************************

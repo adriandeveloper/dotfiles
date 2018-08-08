@@ -66,6 +66,9 @@ nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
 tmap <esc> <c-\><c-n><esc><cr>
 " open up terminal in split below
 nnoremap <leader>` :below 10sp term://$SHELL<cr>
+" rebind CTRL + l & CTRL + h for faster switching between tabs
+nnoremap <C-l> gt
+nnoremap <C-h> gT
 
 " vim-test
 " ************************************************
